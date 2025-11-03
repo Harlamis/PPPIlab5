@@ -126,7 +126,7 @@
     <ClCompile Include="PPPIlab5.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Playerr.h" />
+    <ClInclude Include="Player.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

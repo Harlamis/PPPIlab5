@@ -6,6 +6,7 @@ using namespace std;
 
 class Player
 {
+    // change from damage branch
 	string name;
 	double health_points;
 	double damage;

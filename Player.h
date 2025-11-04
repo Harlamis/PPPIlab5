@@ -11,6 +11,17 @@ class Player
 	double damage;
 public:
 	string GetName();
-	void ReceiveDamage(Player& other);
+    void ReceiveDamage(Player& other)
+    {
+        cout << name << " отримує " << other.damage
+            << " шкоди від " << other.name << "!" << endl;
+
+        health_points -= other.damage;
+
+        if (health_points < 0)
+            health_points = 0;
+
+        cout << name << " тепер має " << health_points << " HP." << endl;
+    }
 	void Heal(double amount);
 };

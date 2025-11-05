@@ -29,8 +29,8 @@ public:
         if (amount > 0)
         {
             this->health_points += amount;
-
-            cout << this->name << " ë³êóºòüñÿ íà " << amount << " îä. çäîðîâ'ÿ." << endl;
+          
+            cout << this->name << " heals by " << amount << " HP." << endl;
         }
     }
 

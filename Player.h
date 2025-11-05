@@ -19,7 +19,7 @@ public:
         {
             this->health_points += amount;
 
-            cout << this->name << " лікується на " << amount << " од. здоров'я." << endl;
+            cout << this->name << " heals by " << amount << " HP." << endl;
         }
     }
 };

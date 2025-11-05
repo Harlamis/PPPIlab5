@@ -14,15 +14,15 @@ public:
 	string GetName();
     void ReceiveDamage(Player& other)
     {
-        cout << name << " îòðèìóº " << other.damage
-            << " øêîäè â³ä " << other.name << "!" << endl;
+        cout << name << " Receives  " << other.damage
+            << " damage from " << other.name << "!" << endl;
 
         health_points -= other.damage;
 
         if (health_points < 0)
             health_points = 0;
 
-        cout << name << " òåïåð ìàº " << health_points << " HP." << endl;
+        cout << name << "now you have " << health_points << " HP." << endl;
     }
     void Heal(double, int amount)
     {
